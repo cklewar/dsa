@@ -34,6 +34,9 @@ fn main() {
             for p in graph[course].clone() {
                 x = dfs(p, visited, path, graph)
             }
+
+            path.remove(&course);
+            visited.insert(course);
             
             x
         }
@@ -51,6 +54,7 @@ fn main() {
     }
 
     //let result = course_schedule(2, vec![vec![1, 0]]);
-    let result = course_schedule(2, vec![vec![1, 0], vec![0, 1]]);
+    //let result = course_schedule(2, vec![vec![1, 0], vec![0, 1]]);
+    let result = course_schedule(4, vec![vec![0, 3], vec![1, 2], vec![1, 0], vec![2, 3], vec![3, 2]]);
     println!("Are courses schedulable? {:?}", result);
 }

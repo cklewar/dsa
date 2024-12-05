@@ -1,3 +1,7 @@
+/*
+O(n)
+*/
+
 use std::cell::RefCell;
 use std::cmp;
 use std::rc::Rc;

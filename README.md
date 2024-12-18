@@ -5,7 +5,7 @@ Data structures and algorithms
   - Binary search
   - Two pointers
 
-* If asked for all permutations/subsets then
+* If all permutations/subsets then
   - Backtracking
 
 * If given a tree then
@@ -26,17 +26,17 @@ Data structures and algorithms
   - Swap corresponding values
   - Store one or more different values in the same pointer
 
-* If asked for maximum/minimum subarray/ subset/options then
+* If maximum / minimum subarray / subset / options then
   - Dynamic programming
 
-* If asked for top/least K items then
+* If top / least K items then
   - Heap
   - QuickSelect
 
-* If asked for common strings then
+* If common strings then
   - Map
   - Trie
 
 * Else
-  - Map/Set for O(1) time & O(n) space
+  - Map / Set for O(1) time & O(n) space
   - Sort input for O(n log(n)) time and O(1) space

@@ -4,7 +4,7 @@ fn main() {
 
     fn majority(nums: &Vec<i32>) -> i32 {
         let mut candidate: i32 = 0;
-        let mut count = 0;
+        let mut count: i32 = 0;
 
         for num in nums {
             if count == 0 {
@@ -13,8 +13,7 @@ fn main() {
 
             if num.eq(&candidate) {
                 count += 1;
-            }
-            else {
+            } else {
                 count -= 1;
             }
         }

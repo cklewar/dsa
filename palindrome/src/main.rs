@@ -1,5 +1,6 @@
 fn main() {
-    let s = "A man, a plan, a canal: Panama";
+    //let s:&str = "A man, a plan, a canal: Panama";
+    let s:&str =  "A woman, a plan, c canal: Panama";
 
     fn palindrome(s: &str) -> bool {
         let mut tmp =  s.chars().filter(|c| !c.is_whitespace()).collect::<String>();

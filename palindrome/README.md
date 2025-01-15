@@ -1,3 +1,3 @@
 # Palindrome
-time:
-space:
+time: O(n)
+space: O(n)
